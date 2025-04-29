@@ -19,3 +19,7 @@ test('returns zero when the input is negative', () => {
 test('returns zero when the input is negative float', () => {
     expect(removeTrailingZeros(-123.45000)).toBe(-123.45);
 });
+
+test('returns zero when the input is negative float with zeros in the middle', () => {
+    expect(removeTrailingZeros(-1203.45000)).toBe(-1203.45);
+});

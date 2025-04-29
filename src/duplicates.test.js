@@ -21,5 +21,5 @@ test('returns false for unique arguments', () => {
 });
 
 // test('returns false for unique arguments', () => {
-//     expect(findDuplicates(-28, '@', 43, -48, 18, 11, '4', -25, '43')).toBe(false);
+//     expect(findDuplicates(-28, '@', 43, -48, 18, 11, '4', -25, '43')).toBe(true);
 // });

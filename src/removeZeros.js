@@ -18,5 +18,6 @@ function removeTrailingZeros(number) {
 // const result = removeTrailingZeros(0); // 0
 // const result = removeTrailingZeros(-123000); // -123
 // const result = removeTrailingZeros(-123.45000); // -123.45
+// const result = removeTrailingZeros(-1203.45000); // -1203.45
 
 module.exports = removeTrailingZeros;
